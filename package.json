@@ -1,12 +1,15 @@
 {
   "name": "file-lines",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "递归统计文件行数",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "bin": {
+    "file-lines": "./bin/index"
+  },
+  "author": "https://github.com/qinkangwu",
   "license": "ISC",
   "dependencies": {
     "optimist": "^0.6.1"
