@@ -1,6 +1,6 @@
 {
   "name": "file-lines",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "递归统计文件行数",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
   },
   "author": "https://github.com/qinkangwu",
   "license": "ISC",
+  "repository":{ 
+    "type" : "git", 
+    "url" : "https://github.com/qinkangwu/file-lines"
+  },
   "dependencies": {
     "optimist": "^0.6.1"
   }
