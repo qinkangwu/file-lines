@@ -10,6 +10,7 @@ arr.forEach((res)=>{
 })
 console.log(`${cwd}目录下指定的文件行数为${totalLines}`);
 function fileLines(path){
+    console.log(path);
     var stat = fs.statSync(path);
     if(stat.isDirectory()){
         var arr2 =diffArray(fs.readdirSync(path),ignoreArr);
